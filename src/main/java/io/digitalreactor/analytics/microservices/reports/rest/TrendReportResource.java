@@ -35,7 +35,6 @@ public class TrendReportResource {
             @RequestHeader(value = "Counter-id") int counterId,
             @PathVariable(value = "actualDate") String actualDate
     ) {
-
         LocalDate endDate = LocalDate.parse(actualDate).minusDays(1);
         LocalDate startDate = endDate.minusDays(30);
 
@@ -50,7 +49,5 @@ public class TrendReportResource {
                 TrendReport.visitsListWithDay(visits, startDate),
                 verdict
         );
-
-
     }
 }
