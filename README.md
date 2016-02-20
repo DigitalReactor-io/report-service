@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DigitalReactor-io/report-service.svg?branch=master)](https://travis-ci.org/DigitalReactor-io/report-service)
+
 Адрес для JSON-запросов
 ---------------
 /trend/visits/date/{date}
