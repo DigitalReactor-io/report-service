@@ -11,16 +11,16 @@ The report contains of:
 * value of changed conversion for the last week;
 * reason for describing the change.
 
-** URL for request ** : /trend/visits/date/{actualDate}
+**URL for request** : /trend/visits/date/{actualDate}
 
-*** Request ***  
+***Request***  
 For request you must have two credentials - yandex access token and counter id. The credentials you must put in headers with content-type.
 ```headers
 Access-token: (string)
 Counter-id: (int)
 Content-Type: application/json;charset=UTF-8
 ```
-*** Response ***
+***Response***
 
 ```json
 {
