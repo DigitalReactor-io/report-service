@@ -5,16 +5,16 @@ DigitalReactor.io/report
 
 ## JSON-requests
 ### Trend Report
-The trend report provide information about changes visits for a month.
-The report contains of:
-* visits for a 30 days;
-* value of changed conversion for the last week;
-* reason for describing the change.
+The trend report provides information about changes visits during one month.
+The report contains:
+* visits during 30 days;
+* value of changed conversion during last week;
+* trend change reason.
 
 **URL for request** : /trend/visits/date/{actualDate}
 
 ***Request***  
-For request you must have two credentials - yandex access token and counter id. The credentials you must put in headers with content-type.
+For request you required to have two credentials - yandex access token and counter id. Theese credentials you must put in headers with content-type.
 ```headers
 Access-token: (string)
 Counter-id: (int)
